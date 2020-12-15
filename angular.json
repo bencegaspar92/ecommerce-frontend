@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "ecommerce-frontend"
+  "defaultProject": "ecommerce-frontend",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
