@@ -5,11 +5,16 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
-import {FooterComponent, HeaderComponent, SharedModule} from './shared';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FooterComponent, HeaderComponent, NavComponent, SharedModule} from './shared';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent],
+  declarations: [
+    AppComponent,
+    NavComponent,
+    HeaderComponent,
+    FooterComponent
+  ],
   imports: [
     CoreModule,
     AuthModule,
