@@ -1,3 +1,19 @@
+a {
+  color: white;
+  vertical-align: middle;
+}
+
+i {
+  height: 26px;
+  font-size: 25px;
+  margin: 0 4px 3px 0;
+  vertical-align: middle;
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
 .navbar-header {
   display: flex;
   flex-wrap: wrap;
