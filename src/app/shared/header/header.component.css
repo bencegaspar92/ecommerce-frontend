@@ -3,9 +3,13 @@ a {
   vertical-align: middle;
 }
 
+.main-logo {
+  font-size: 23px;
+}
+
 i {
-  height: 26px;
-  font-size: 25px;
+  height: 21px;
+  font-size: 20px;
   margin: 0 4px 3px 0;
   vertical-align: middle;
 }
