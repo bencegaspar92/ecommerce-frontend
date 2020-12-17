@@ -1,20 +1,25 @@
-import {SharedModule} from '../shared';
-import { NgModule } from '@angular/core';
-import {MatAutocompleteModule, MatButtonModule, MatInputModule, MatSidenavModule} from '@angular/material';
+import {NgModule} from '@angular/core';
+import {
+  MatAutocompleteModule,
+  MatButtonModule, MatCardModule,
+  MatIconModule,
+  MatInputModule,
+  MatListModule,
+  MatSidenavModule,
+  MatToolbarModule
+} from '@angular/material';
 
 @NgModule({
-  imports: [
-    SharedModule,
-    MatInputModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatAutocompleteModule
-  ],
   exports: [
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
     MatInputModule,
     MatButtonModule,
     MatSidenavModule,
+    MatToolbarModule,
     MatAutocompleteModule
   ]
 })
-export class MaterialModule {}
+export class MaterialModule {
+}

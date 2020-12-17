@@ -1,3 +1,39 @@
-<p>
-  auth works!
-</p>
+<mat-card class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="avatar"><i class="fas fa-user"></i></div>
+    <span class="avatar-text">New User</span>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form>
+
+      <div class="from-field">
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="email" [errorStateMatcher]="matcher">
+          <mat-error *ngIf="email.hasError('email') && !email.hasError('required')">
+            Please enter a valid email address
+          </mat-error>
+          <mat-error *ngIf="email.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="from-field">
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input type="password" matInput [formControl]="password" [errorStateMatcher]="matcher">
+          <mat-error *ngIf="email.hasError('required')">
+            Password is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+    </form>
+  </mat-card-content>
+
+  <mat-card-actions [align]="'end'">
+    <button mat-button>Sign In</button>
+  </mat-card-actions>
+</mat-card>
