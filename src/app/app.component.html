@@ -1,7 +1,5 @@
-<app-header></app-header>
+<app-header (event)="navigation.onToolbarMenuToggle()"></app-header>
 
-<div class="flex-center" style="height: 100%">
-  <app-auth></app-auth>
-</div>
+<app-nav #navigation></app-nav>
 
-<app-footer></app-footer>
+<!--<app-footer></app-footer>-->

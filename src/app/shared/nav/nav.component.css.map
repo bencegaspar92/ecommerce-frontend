@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"nav.component.css"}
+{"version":3,"sourceRoot":"","sources":["nav.component.scss"],"names":[],"mappings":"AAAA;EACE;;;AAIA;EACE;;AACA;EACE;;;AAKN;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAEF;EACE;EACA;;;AAGF;EACE","file":"nav.component.css"}

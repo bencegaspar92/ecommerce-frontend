@@ -9,10 +9,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.basic-container {
-  padding: 30px;
-}
-
 .flex-center {
   display: flex;
   align-items: center;
