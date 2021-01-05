@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import {Animations} from '../animations/animations';
 
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss']
+  styleUrls: ['./nav.component.scss'],
+  animations: [Animations.slideIn]
 })
 export class NavComponent {
   isMenuOpen = false;

@@ -34,11 +34,24 @@
 }
 
 #sidenav.menu-close {
+  @extend .slide-animation;
   width: 70px
 }
 
 #sidenav.menu-open {
-  width: 240px
+  @extend .slide-animation;
+  width: 240px;
+}
+
+.slide-animation {
+  -webkit-transition: width 1s ease-in-out, padding-left 1s ease-in-out,
+  padding-right 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out, padding-left 1s ease-in-out,
+  padding-right 1s ease-in-out;
+  -o-transition: width 1s ease-in-out, padding-left 1s ease-in-out,
+  padding-right 1s ease-in-out;
+  transition: width 1s ease-in-out, padding-left 1s ease-in-out,
+  padding-right 1s ease-in-out;
 }
 
 #sidenav .avatar {
@@ -56,9 +69,6 @@
   padding: 10px;
 }
 
-#sidenav .menu-item:hover {
-  background: #eee;
-}
 #sidenav .menu-item mat-icon {
   margin-right: 20px;
   margin-left: 12px;

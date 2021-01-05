@@ -4,7 +4,7 @@ import {
   MatButtonModule, MatCardModule,
   MatIconModule,
   MatInputModule,
-  MatListModule,
+  MatListModule, MatRippleModule,
   MatSidenavModule,
   MatToolbarModule
 } from '@angular/material';
@@ -16,6 +16,7 @@ import {
     MatIconModule,
     MatInputModule,
     MatButtonModule,
+    MatRippleModule,
     MatSidenavModule,
     MatToolbarModule,
     MatAutocompleteModule
