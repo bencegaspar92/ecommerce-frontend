@@ -1,6 +1,7 @@
 import {CoreModule} from './core';
 import { NgModule } from '@angular/core';
 import {MaterialModule} from './material';
+import {HomeModule} from './home/home.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -13,11 +14,12 @@ import {FooterComponent, HeaderComponent, NavComponent, SharedModule} from './sh
     AppComponent,
     NavComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CoreModule,
     AuthModule,
+    HomeModule,
     SharedModule,
     BrowserModule,
     MaterialModule,
