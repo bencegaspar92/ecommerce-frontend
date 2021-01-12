@@ -1,5 +1,15 @@
-<app-header (event)="navigation.onToolbarMenuToggle()"></app-header>
+<app-header (event)="navigation.toggle()"></app-header>
 
-<app-nav #navigation></app-nav>
+<mat-drawer-container autosize [hasBackdrop]="true">
 
-<!--<app-footer></app-footer>-->
+  <mat-drawer #navigation mode="side" style="overflow: hidden">
+    <app-nav></app-nav>
+  </mat-drawer>
+
+  <div class="main-content flex-center">
+    <app-auth></app-auth>
+  </div>
+
+</mat-drawer-container>
+
+<app-footer></app-footer>

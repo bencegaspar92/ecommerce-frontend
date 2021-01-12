@@ -1,33 +1,22 @@
-<mat-sidenav-container id="sidenavContainer" fullscreen>
-  <mat-sidenav mode="side" #sidenav id="sidenav" [@slideIn]="isMenuOpen"
-               [class.menu-open]="isMenuOpen" [class.menu-close]="!isMenuOpen" opened>
+<mat-list id="menu">
+  <mat-list-item>
+    <button class="menu-item" mat-flat-button>
+      <mat-icon>dashboard</mat-icon>
+      Dashboard
+    </button>
+  </mat-list-item>
 
-    <mat-list id="menus">
-      <mat-list-item>
-        <button class="menu-item" mat-flat-button>
-          <mat-icon>dashboard</mat-icon>
-          Dashboard</button>
-      </mat-list-item>
+  <mat-list-item>
+    <button class="menu-item" mat-flat-button>
+      <mat-icon>work</mat-icon>
+      Project
+    </button>
+  </mat-list-item>
 
-      <mat-list-item>
-        <button class="menu-item" mat-flat-button>
-          <mat-icon>work</mat-icon>
-          Project</button>
-      </mat-list-item>
-
-      <mat-list-item>
-        <button class="menu-item" mat-flat-button>
-          <mat-icon>settings_application</mat-icon>
-          Settings</button>
-      </mat-list-item>
-
-    </mat-list>
-  </mat-sidenav>
-
-  <mat-sidenav-content>
-    <div class="flex-center" style="height: 100%">
-      <app-auth></app-auth>
-    </div>
-  </mat-sidenav-content>
-
-</mat-sidenav-container>
+  <mat-list-item>
+    <button class="menu-item" mat-flat-button>
+      <mat-icon>settings_application</mat-icon>
+      Settings
+    </button>
+  </mat-list-item>
+</mat-list>

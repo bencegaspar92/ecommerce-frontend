@@ -4,6 +4,17 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Roboto', sans-serif; }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-content {
+  height: 88vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .flex-center {
   display: flex;
   align-items: center;

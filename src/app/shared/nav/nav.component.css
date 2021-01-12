@@ -1,73 +1,11 @@
-.mat-list, .mat-nav-list, .mat-selection-list {
-  padding-top: 3px;
-}
-
-:host ::ng-deep .mat-list .mat-list-item {
-  height: 55px;
-}
-:host ::ng-deep .mat-list .mat-list-item .mat-list-item-content {
+.menu {
+  width: 100%;
   padding: 0;
-}
-
-#toolbarMenu {
-  cursor: pointer;
-  margin-right: 20px;
-}
-
-#mainToolbar .toolbar-spacer {
-  flex: 1 1 auto;
-}
-
-#mainToolbar .toolbar-icon {
-  cursor: pointer;
-}
-
-#sidenavContainer {
-  margin-top: 56px;
-}
-
-#sidenav {
-  width: 240px;
   overflow: hidden;
 }
 
-#sidenav.menu-close {
-  width: 70px;
-}
-
-#sidenav.menu-open {
-  width: 240px;
-}
-
-.slide-animation, #sidenav.menu-close, #sidenav.menu-open {
-  -webkit-transition: width 1s ease-in-out, padding-left 1s ease-in-out, padding-right 1s ease-in-out;
-  -moz-transition: width 1s ease-in-out, padding-left 1s ease-in-out, padding-right 1s ease-in-out;
-  -o-transition: width 1s ease-in-out, padding-left 1s ease-in-out, padding-right 1s ease-in-out;
-  transition: width 1s ease-in-out, padding-left 1s ease-in-out, padding-right 1s ease-in-out;
-}
-
-#sidenav .avatar {
-  background-size: cover;
-}
-
-#sidenav .mat-list-item-content {
-  padding: 0;
-}
-
-#sidenav .menu-item {
+.menu-item {
   width: 100%;
-  border-radius: 0;
-  text-align: left;
-  padding: 10px;
-}
-
-#sidenav .menu-item mat-icon {
-  margin-right: 20px;
-  margin-left: 12px;
-}
-
-.dash-list h3 {
-  padding: 12px;
 }
 
 /*# sourceMappingURL=nav.component.css.map */

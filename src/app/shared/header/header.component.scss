@@ -8,9 +8,9 @@ a, .menu-logo {
 }
 
 i {
-  height: 21px;
   font-size: 20px;
-  margin: 0 4px 3px 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
   vertical-align: middle;
 }
 
@@ -19,9 +19,10 @@ i {
 }
 
 .navbar-header {
+  top: 0;
+  height: 7vh;
   display: flex;
   flex-wrap: wrap;
-  padding: 8px 16px;
   align-items: center;
   background: #3f51b5;
 }
